@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import {  Navigate, useNavigate, useParams } from 'react-router-dom';
 import { getHeroesById } from '../../selectors/getHeroesById';
 
@@ -9,10 +9,10 @@ export const HeroScreen = () => {
 
   const navigate = useNavigate()
 
-  const hero = getHeroesById(heroId);
+  const hero = useMemo( () => getHeroesById(heroId), [heroId] ); // this is very important to don' be calling the function everytime the state is changed
 
   const handleReturn = () => {
-    navigate('/', {
+    navigate(-1, {
       replace: true
     })
   }
@@ -41,7 +41,7 @@ export const HeroScreen = () => {
         <img 
           src={ imagePath } 
           alt={ superhero }
-          className='img-thumbnail'
+          className='img-thumbnail animate__animated animate__rollIn'
         />
       </div>
       <div className='col-8'>
