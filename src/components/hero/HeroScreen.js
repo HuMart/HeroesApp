@@ -12,7 +12,7 @@ export const HeroScreen = () => {
   const hero = getHeroesById(heroId);
 
   const handleReturn = () => {
-    navigate('/', {
+    navigate(-1, {
       replace: true
     })
   }
