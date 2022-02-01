@@ -10,6 +10,7 @@ export const SearchScreen = () => {
   const navigate = useNavigate();
 
   const location = useLocation();
+  
 
   const [ formValues, handleInputChange, reset ] = useForm({
     inputText: ''
