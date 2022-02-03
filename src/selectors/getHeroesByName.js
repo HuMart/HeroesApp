@@ -6,7 +6,7 @@ export const getHeroesByName = ( name = '' ) => {
         return []
     }
     
-    console.log('getHeroByName called');
+    
 
     name = name.toLowerCase();
 

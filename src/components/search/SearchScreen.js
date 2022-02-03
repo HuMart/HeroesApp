@@ -34,8 +34,10 @@ export const SearchScreen = () => {
 
 
   return (
-      <>
-          <h1>Search</h1>
+      <div className='card bg-transparent'>
+        <img src='https://www.animatedtimes.com/wp-content/uploads/2020/01/Marvel-Vs-Dc-Movies-Research-Winner.jpg' alt='' />
+        <div className="container-fluid card-img-overlay">
+          <h1 className='text-white'>Search</h1>
           <hr />
           <div className='row'>
             <div className='col-5'>
@@ -60,7 +62,7 @@ export const SearchScreen = () => {
 
               </form>
             </div>
-            <div className='col-7'>
+            <div className='col-7 text-white'>
               <h4>Results</h4>
               <hr />
 
@@ -82,6 +84,8 @@ export const SearchScreen = () => {
             </div>
           </div>
 
-      </>
+        </div>
+          
+      </div>
   );
 };
