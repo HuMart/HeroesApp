@@ -30,16 +30,24 @@ export const LoginScreen = () => {
   }
 
   return (
-      <div className='container fluid'>
-          <h1>Login</h1>
+    <div  className='position-absolute top-50 start-50 translate-middle'>
+      <img className='container  w-auto h-auto opacity-50 ' src='https://wallpapertag.com/wallpaper/full/1/1/1/549111-marvel-vs-dc-wallpaper-1929x1200-for-android-50.jpg' alt=''/>
+      <div className='img-overlay text-dark text-center position-absolute top-50 start-50 translate-middle'>
+          <h1>Enter to the World of Heroes</h1>
           <hr />
 
           <button 
-            className='btn btn-primary' 
+            className='btn btn-transparent btn-lg' 
             onClick={ handleLogin }
           >
-            Login
+            Click Me
           </button>
-      </div>
+      </div>      
+      <footer className='text-center text-white bg-dark'>
+        MIT
+      </footer>
+
+    </div>
+
   );
 };

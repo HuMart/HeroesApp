@@ -36,12 +36,12 @@ export const HeroScreen = () => {
 
   return (
     
-    <div className='row mt-5shadow-sm p-3 mb-5 bg-white rounded'>
+    <div className='row mt-5'>
       <div className='col-4 '>
         <img 
           src={ imagePath } 
           alt={ superhero }
-          className='shadow-sm p-0 mb-5 bg-white rounded img-thumbnail animate__animated animate__rollIn'
+          className='shadow-sm p-0 mb-5 bg-white rounded img-thumbnail animate__animated animate__fadeInLeft'
         />
       </div>
       <div className='col-8'>

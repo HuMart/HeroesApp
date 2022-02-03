@@ -34,7 +34,7 @@ export const SearchScreen = () => {
 
 
   return (
-      <div className='card bg-transparent'>
+      <div className='card bg-transparent animate__animated animate__fadeIn'>
         <img src='https://www.animatedtimes.com/wp-content/uploads/2020/01/Marvel-Vs-Dc-Movies-Research-Winner.jpg' alt='' />
         <div className="container-fluid card-img-overlay">
           <h1 className='text-white'>Search</h1>
