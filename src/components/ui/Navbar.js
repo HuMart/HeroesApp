@@ -3,13 +3,16 @@ import { Link, useNavigate, NavLink } from 'react-router-dom'
 import { AuthContext } from '../../auth/authContext';
 import { types } from '../../types/types';
 
+
+
 export const Navbar = () => {
 
     const { user, dispatch } = useContext(AuthContext);
 
     const navigate = useNavigate();
 
-    const {  } = useContext(AuthContext);
+    // const {  } = useContext(AuthContext);
+
 
     const handleLogout = () => {
         // const action = {
@@ -23,13 +26,13 @@ export const Navbar = () => {
     };
 
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark container-fluid">
             
             <Link 
                 className="navbar-brand" 
                 to="/"
             >
-                Asociaciones
+                <img className='d-flex b' src="https://th.bing.com/th/id/OIP.JWMbxW3YwUjNX7Q13lsl6AHaE8?pid=ImgDet&rs=1" alt='' width="30" height="24"/>
             </Link>
 
             <div className="navbar-collapse">
@@ -70,7 +73,7 @@ export const Navbar = () => {
                         className="nav-item nav-link btn"
                         onClick={handleLogout} 
                     >
-                        Logout
+                        Fly out of here
                     </button>
                 </ul>
             </div>

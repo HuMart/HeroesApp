@@ -7,9 +7,11 @@ export const PrivateRoute = ({ children }) => {
 
     const { user } = useContext(AuthContext);
 
-    const location = useLocation();
+    const { pathname, search } = useLocation();
 
-    localStorage.setItem('lastPath', location.pathname)
+    localStorage.setItem('lastPath', pathname + search );
+
+    console.log(pathname, search);
     
     return user.logged
         ? children 

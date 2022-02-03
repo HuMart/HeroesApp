@@ -17,7 +17,7 @@ export const LoginScreen = () => {
     const action = {
 
       type: types.login,
-      payload: { name: 'Hugo' }
+      payload: { name: 'User Logged' }
     }
 
     dispatch(action);
@@ -30,7 +30,7 @@ export const LoginScreen = () => {
   }
 
   return (
-      <div className='container mt-5'>
+      <div className='container fluid'>
           <h1>Login</h1>
           <hr />
 
