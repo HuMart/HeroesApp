@@ -14,7 +14,7 @@ describe('test in <DashboardRoutes />', () => {
         const contextValue = {
             user: {
                 logged: true,
-                name: 'Uder logged'
+                name: 'User logged'
             }
         }
 
@@ -26,8 +26,10 @@ describe('test in <DashboardRoutes />', () => {
             </AuthContext.Provider>
         )
 
-        console.log(wrapper.html());
+        
         expect( wrapper ).toMatchSnapshot();
+        expect( wrapper.find('.text-info').text().trim() ).toBe('User logged');
+
 
     });
     
