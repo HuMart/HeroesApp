@@ -1,0 +1,512 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing <AppRouter /> should render marvel component if is autenticated 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark container-fluid"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        className="d-flex b"
+        height="24"
+        src="https://th.bing.com/th/id/OIP.JWMbxW3YwUjNX7Q13lsl6AHaE8?pid=ImgDet&rs=1"
+        width="30"
+      />
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          aria-current="page"
+          className="nav-item nav-link active"
+          href="/marvel"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+            height="24"
+            src="https://assets.cdn.moviepilot.de/files/5e6dfbca611668e018c9d231c2bb2caddae173fbf31578a4929c07072f12/fill/1440/691/marvel+logo.jpg"
+            width="30"
+          />
+        </a>
+        <a
+          className="nav-item nav-link "
+          href="/dc"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+            height="24"
+            src="https://th.bing.com/th/id/R.937784bc187d3ca31114c1461c7c3c20?rik=TCflKvsBsBpSyw&riu=http%3a%2f%2fthebatmanuniverse.net%2fwp-content%2fuploads%2f2018%2f04%2fdc-logo.jpg&ehk=9QBryoGg8QikgHqgU%2fwTzjmk9%2b2ZG8h8KneaVWk6nq8%3d&risl=&pid=ImgRaw&r=0"
+            width="30"
+          />
+        </a>
+        <a
+          className="nav-item nav-link "
+          href="/search"
+          onClick={[Function]}
+        >
+          Search
+        </a>
+      </div>
+    </div>
+    <div
+      className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end"
+    >
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        >
+          User logged
+        </span>
+        <button
+          className="nav-item nav-link btn"
+          onClick={[Function]}
+        >
+          Fly out of here
+        </button>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="container"
+  >
+    <div>
+      <h1>
+        Marvel Screen
+      </h1>
+      <hr />
+      <div
+        className="row rows-cols-1 row-cols-md-3 g-3"
+      >
+        <div
+          className="card  border-0 bg-transparent text-black animate__animated animate__fadeIn"
+        >
+          <img
+            alt="Spider Man"
+            className="card-img shadow-lg"
+            src="/assets/images/marvel-spider.jpg"
+          />
+          <div
+            className=" card-img-overlay "
+          >
+            <h5
+              className="card-title "
+            >
+              Spider Man
+            </h5>
+            <p
+              className="card-text fw-bold"
+            >
+              Peter Parker
+            </p>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <a
+                  className="text-black fw-bold"
+                  href="/hero/marvel-spider"
+                  onClick={[Function]}
+                >
+                  More...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card  border-0 bg-transparent text-black animate__animated animate__fadeIn"
+        >
+          <img
+            alt="Captain America"
+            className="card-img shadow-lg"
+            src="/assets/images/marvel-captain.jpg"
+          />
+          <div
+            className=" card-img-overlay "
+          >
+            <h5
+              className="card-title "
+            >
+              Captain America
+            </h5>
+            <p
+              className="card-text fw-bold"
+            >
+              Steve Rogers
+            </p>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <a
+                  className="text-black fw-bold"
+                  href="/hero/marvel-captain"
+                  onClick={[Function]}
+                >
+                  More...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card  border-0 bg-transparent text-black animate__animated animate__fadeIn"
+        >
+          <img
+            alt="Iron Man"
+            className="card-img shadow-lg"
+            src="/assets/images/marvel-iron.jpg"
+          />
+          <div
+            className=" card-img-overlay "
+          >
+            <h5
+              className="card-title "
+            >
+              Iron Man
+            </h5>
+            <p
+              className="card-text fw-bold"
+            >
+              Tony Stark
+            </p>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <a
+                  className="text-black fw-bold"
+                  href="/hero/marvel-iron"
+                  onClick={[Function]}
+                >
+                  More...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card  border-0 bg-transparent text-black animate__animated animate__fadeIn"
+        >
+          <img
+            alt="Thor"
+            className="card-img shadow-lg"
+            src="/assets/images/marvel-thor.jpg"
+          />
+          <div
+            className=" card-img-overlay "
+          >
+            <h5
+              className="card-title "
+            >
+              Thor
+            </h5>
+            <p
+              className="card-text fw-bold"
+            >
+              Thor Odinson
+            </p>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <a
+                  className="text-black fw-bold"
+                  href="/hero/marvel-thor"
+                  onClick={[Function]}
+                >
+                  More...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card  border-0 bg-transparent text-black animate__animated animate__fadeIn"
+        >
+          <img
+            alt="Hulk"
+            className="card-img shadow-lg"
+            src="/assets/images/marvel-hulk.jpg"
+          />
+          <div
+            className=" card-img-overlay "
+          >
+            <h5
+              className="card-title "
+            >
+              Hulk
+            </h5>
+            <p
+              className="card-text fw-bold"
+            >
+              Bruce Banner
+            </p>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <a
+                  className="text-black fw-bold"
+                  href="/hero/marvel-hulk"
+                  onClick={[Function]}
+                >
+                  More...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card  border-0 bg-transparent text-black animate__animated animate__fadeIn"
+        >
+          <img
+            alt="Wolverine"
+            className="card-img shadow-lg"
+            src="/assets/images/marvel-wolverine.jpg"
+          />
+          <div
+            className=" card-img-overlay "
+          >
+            <h5
+              className="card-title "
+            >
+              Wolverine
+            </h5>
+            <p
+              className="card-text fw-bold"
+            >
+              James Howlett
+            </p>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <a
+                  className="text-black fw-bold"
+                  href="/hero/marvel-wolverine"
+                  onClick={[Function]}
+                >
+                  More...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card  border-0 bg-transparent text-black animate__animated animate__fadeIn"
+        >
+          <img
+            alt="Daredevil"
+            className="card-img shadow-lg"
+            src="/assets/images/marvel-daredevil.jpg"
+          />
+          <div
+            className=" card-img-overlay "
+          >
+            <h5
+              className="card-title "
+            >
+              Daredevil
+            </h5>
+            <p
+              className="card-text fw-bold"
+            >
+              Matthew Michael Murdock
+            </p>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <a
+                  className="text-black fw-bold"
+                  href="/hero/marvel-daredevil"
+                  onClick={[Function]}
+                >
+                  More...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card  border-0 bg-transparent text-black animate__animated animate__fadeIn"
+        >
+          <img
+            alt="Hawkeye"
+            className="card-img shadow-lg"
+            src="/assets/images/marvel-hawkeye.jpg"
+          />
+          <div
+            className=" card-img-overlay "
+          >
+            <h5
+              className="card-title "
+            >
+              Hawkeye
+            </h5>
+            <p
+              className="card-text fw-bold"
+            >
+              Clinton Francis Barton
+            </p>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <a
+                  className="text-black fw-bold"
+                  href="/hero/marvel-hawkeye"
+                  onClick={[Function]}
+                >
+                  More...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card  border-0 bg-transparent text-black animate__animated animate__fadeIn"
+        >
+          <img
+            alt="Cyclops"
+            className="card-img shadow-lg"
+            src="/assets/images/marvel-cyclops.jpg"
+          />
+          <div
+            className=" card-img-overlay "
+          >
+            <h5
+              className="card-title "
+            >
+              Cyclops
+            </h5>
+            <p
+              className="card-text fw-bold"
+            >
+              Scott Summers
+            </p>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <a
+                  className="text-black fw-bold"
+                  href="/hero/marvel-cyclops"
+                  onClick={[Function]}
+                >
+                  More...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card  border-0 bg-transparent text-black animate__animated animate__fadeIn"
+        >
+          <img
+            alt="Silver Surfer"
+            className="card-img shadow-lg"
+            src="/assets/images/marvel-silver.jpg"
+          />
+          <div
+            className=" card-img-overlay "
+          >
+            <h5
+              className="card-title "
+            >
+              Silver Surfer
+            </h5>
+            <p
+              className="card-text fw-bold"
+            >
+              Norrin Radd
+            </p>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <a
+                  className="text-black fw-bold"
+                  href="/hero/marvel-silver"
+                  onClick={[Function]}
+                >
+                  More...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`testing <AppRouter /> should return login screen if not autenticated 1`] = `
+<div
+  className="position-absolute top-50 start-50 translate-middle"
+>
+  <img
+    alt=""
+    className="container  w-auto h-auto opacity-50 "
+    src="https://wallpapertag.com/wallpaper/full/1/1/1/549111-marvel-vs-dc-wallpaper-1929x1200-for-android-50.jpg"
+  />
+  <div
+    className="img-overlay text-dark text-center position-absolute top-50 start-50 translate-middle"
+  >
+    <h1>
+      Enter to the World of Heroes
+    </h1>
+    <hr />
+    <button
+      className="btn btn-transparent btn-lg"
+      onClick={[Function]}
+    >
+      Click Me
+    </button>
+  </div>
+  <footer
+    className="text-center text-white bg-dark"
+  >
+    MIT 
+    <span
+      className="material-icons-outlined"
+    >
+      copyright
+    </span>
+  </footer>
+</div>
+`;

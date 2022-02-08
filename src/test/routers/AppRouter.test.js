@@ -24,9 +24,34 @@ describe('testing <AppRouter />', () => {
 
         );
 
-        console.log(wrapper.html());
+        expect( wrapper ).toMatchSnapshot();
+        expect( wrapper.find('h1').text().trim() ).toBe( 'Enter to the World of Heroes' )
 
     });
+
+    test('should render marvel component if is autenticated', () => {
+      
+        const contextValue = {
+            user: {
+                logged: true,
+                name: 'User logged'
+            }
+        }
+
+        const wrapper = mount(
+
+            <AuthContext.Provider value={ contextValue }>
+                <AppRouter />
+            </AuthContext.Provider>
+
+        );
+        
+
+        expect( wrapper ).toMatchSnapshot();
+        expect( wrapper.find('.navbar').exists() ).toBe( true );
+
+    });
+    
     
 
 });
