@@ -27,5 +27,17 @@ describe('Test authReducer', () => {
         });
 
     });
+
+    test('should delete userName and logged = false', () => {
+      
+        const action = {
+            type: types.logout,
+        };
+
+        const state = authReducer({ logged: true, name: 'User logged' }, action );
+        expect( state ).toEqual({ logged: false });
+
+    });
+    
     
 });
