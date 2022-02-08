@@ -44,7 +44,7 @@ export const LoginScreen = () => {
           </button>
       </div>      
       <footer className='text-center text-white bg-dark'>
-        MIT <span class="material-icons-outlined">
+        MIT <span className="material-icons-outlined">
 copyright
 </span>
       </footer>
