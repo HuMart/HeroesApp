@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing <SearchScreen /> should render correctly with values by default 1`] = `
+<div
+  className="card bg-transparent animate__animated animate__fadeIn"
+>
+  <img
+    alt=""
+    src="https://www.animatedtimes.com/wp-content/uploads/2020/01/Marvel-Vs-Dc-Movies-Research-Winner.jpg"
+  />
+  <div
+    className="container-fluid card-img-overlay"
+  >
+    <h1
+      className="text-white"
+    >
+      Search
+    </h1>
+    <hr />
+    <div
+      className="row"
+    >
+      <div
+        className="col-5"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            autoComplete="off"
+            className="form-control"
+            name="inputText"
+            onChange={[Function]}
+            placeholder="Search your Hero"
+            type="text"
+          />
+          <button
+            className="btn btn-primary mt-1"
+            onClick={[Function]}
+            type="submit"
+          >
+            Submit...
+          </button>
+        </form>
+      </div>
+      <div
+        className="col-7 text-white"
+      >
+        <h4>
+          Results
+        </h4>
+        <hr />
+        <div
+          className="alert alert-info animate__animated animate__flash"
+        >
+          Search a Hero by Name
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
