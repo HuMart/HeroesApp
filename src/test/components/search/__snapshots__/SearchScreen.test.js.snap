@@ -33,6 +33,7 @@ exports[`testing <SearchScreen /> should render correctly with values by default
             onChange={[Function]}
             placeholder="Search your Hero"
             type="text"
+            value=""
           />
           <button
             className="btn btn-primary mt-1"

@@ -48,6 +48,7 @@ export const SearchScreen = () => {
                   className="form-control"
                   name="inputText"
                   autoComplete="off"
+                  value={ inputText }
                   onChange={ handleInputChange }
                 >
                 </input>
