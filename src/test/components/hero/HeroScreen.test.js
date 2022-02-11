@@ -44,5 +44,34 @@ describe('Test <HeroScreen />', () => {
 
      })
 
+     test('should return to previous screen', () => { 
+
+        const wrapper = mount(
+            <MemoryRouter initialEntries={ ['/hero/marvel-spider'] }>
+                <Routes>
+                    <Route path='/hero/:heroId' element={<HeroScreen/>} />
+                </Routes>
+            </MemoryRouter>
+        )
+
+        wrapper.find('button').prop('onClick')();
+        expect(mockNavigate).toHaveBeenCalledWith(-1, {"replace": true});
+
+      })
+
+      test("shouldn't show HeroScreen if the hero doesn't exist", () => { 
+        
+        const wrapper = mount(
+            <MemoryRouter initialEntries={ ['/hero/marvel-spider1234'] }>
+                <Routes>
+                    <Route path='/hero/:heroId' element={<HeroScreen/>} />
+                    <Route path='/' element={<h1>No hero page</h1>} />
+                </Routes>
+            </MemoryRouter>
+        )
+
+        expect(wrapper.text().trim() ).toBe('No hero page');
+
+     })
 
  })
